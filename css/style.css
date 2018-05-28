@@ -23,6 +23,7 @@ header h1 {
 	font-family: Kavivanar, cursive;
 	font-size: 50px; 
 	margin: 0;
+	margin-left: 80px;
 
 }
 
@@ -31,7 +32,6 @@ header h2 {
 	font-size: 100px; 
 	margin: 0;
 	text-align: center;
-
 }
 
 nav {
@@ -52,30 +52,53 @@ ul li {
 	text-align: center;
 }
 
-.prvi, .drugi {
+.about h2 p {
+	font-family: Lucida Calligraphy;
+	align-content: center;
+}
+
+.slike {
+	max-height: 200px;
 	display: inline-block;
+	justify-content: center;
+}
+
+.slike img {
+	max-height: 300px;
+	justify-content: center;
+}
+
+.prvi {
+	float: left;
+	width: calc(100% - 80px);
 }
 
 .drugi {
 	float: right;
+	width: 80px;
 }
 
 .logo {
 	max-height: 80px;
+	float: right;
 	
 }
 
 .treci {
 	display: block;
-	float: right;
-	width: 1000px;
 	text-align: center;
 }
 
 .treci img {
-	height: 200px;
-	margin-top: 20px;
+	height: 400px;
+	margin-top: 30px;
 
+}
+
+.about {
+	margin-top: 20px;
+	font-family:  Source Sans Pro;
+	font-size: 20px; 
 }
 
 ul li a {
@@ -86,6 +109,12 @@ ul li a {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	
+}
+
+.currently p {     
+
+	font-family: Butterfly Kids; 
+
 }
 
 
